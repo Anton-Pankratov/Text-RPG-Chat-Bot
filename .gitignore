@@ -1,0 +1,40 @@
+# IDE и редакторы
+.idea/
+.vscode/
+.project
+.classpath
+.sublime-project
+.sublime-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Конфиденциальные файлы
+.env
+.encryption_key
+
+# Виртуальное окружение
+.venv/
+
+# Лог-файлы и временные файлы
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Базы данных
+*.db
+*.sqlite3
+chat_bot_database.db
+
+# Файлы Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Файлы сборки
+dist/
+build/
+*.egg-info/

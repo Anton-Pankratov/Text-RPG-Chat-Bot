@@ -1,0 +1,18 @@
+DATABASE_FILE_NAME = 'chat_bot_database.db'
+
+#Tables
+DATABASE_TABLE_MESSAGE_USER = 'player_messages'
+DATABASE_TABLE_MESSAGE_BOT = 'bot_messages'
+DATABASE_TABLE_BID_STATUS = 'bid_status'
+
+#Fields
+DATABASE_FIELD_ID = 'id'
+DATABASE_FIELD_CHAT_ID = 'chat_id'
+DATABASE_FIELD_TOPIC_ID = 'topic_id'
+DATABASE_FIELD_USER_ID = 'user_id'
+DATABASE_FIELD_MESSAGE_USER_ID = 'user_message_id'
+DATABASE_FIELD_MESSAGE_BOT_ID = 'bot_message_id'
+DATABASE_FIELD_MESSAGE_TEXT = 'message_text'
+DATABASE_FIELD_MESSAGE_TAG = 'message_tag'
+DATABASE_FIELD_MESSAGE_ACTUAL_ROW_ID = 'message_actual_row_id'
+DATABASE_FIELD_BID_STATUS = "status"
